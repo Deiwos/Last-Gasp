@@ -1,0 +1,18 @@
+{
+  "id": "Outside_-6095,108,-6144",
+  "name": "Outside",
+  "icon": "waypoint-normal.png",
+  "x": -6095,
+  "y": 108,
+  "z": -6144,
+  "r": 97,
+  "g": 13,
+  "b": 207,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -2
+  ],
+  "persistent": true
+}

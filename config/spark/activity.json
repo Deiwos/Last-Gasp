@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Deiwos",
+      "uniqueId": "04eb0d38-4d7f-450d-a2ba-ff2936e0be70"
+    },
+    "time": 1705820692698,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/YxNeeTsiDF"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Deiwos",
+      "uniqueId": "04eb0d38-4d7f-450d-a2ba-ff2936e0be70"
+    },
+    "time": 1705820618104,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/AUmrTupH4j"
+    }
+  }
+]

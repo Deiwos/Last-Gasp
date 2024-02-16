@@ -1,0 +1,27 @@
+{
+  "name": "thermomana",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "2346a3de-0d57-49cb-b786-7e6b3b10f860",
+      "duration": 900,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"lava\",Amount:3000}"
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 50
+          }
+        ]
+      }
+    }
+  ]
+}

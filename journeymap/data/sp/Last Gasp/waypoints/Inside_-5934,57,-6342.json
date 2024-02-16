@@ -1,0 +1,18 @@
+{
+  "id": "Inside_-5934,57,-6342",
+  "name": "Inside",
+  "icon": "waypoint-normal.png",
+  "x": -5934,
+  "y": 57,
+  "z": -6342,
+  "r": 100,
+  "g": 26,
+  "b": 24,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    9
+  ],
+  "persistent": true
+}

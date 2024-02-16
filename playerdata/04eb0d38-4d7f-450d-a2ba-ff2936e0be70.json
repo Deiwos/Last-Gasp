@@ -1,0 +1,29 @@
+{
+    "DialogData": [
+    ],
+    "BankData": [
+    ],
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "TransportData": [
+    ],
+    "FactionData": [
+    ],
+    "ItemGiverChained": [
+    ],
+    "ItemGiversList": [
+    ],
+    "MailData": [
+    ],
+    "NpcsTimers": [
+    ],
+    "PlayerName": "Deiwos",
+    "UUID": "04eb0d38-4d7f-450d-a2ba-ff2936e0be70",
+    "PlayerCompanionId": 0,
+    "ScriptStoreddata": {
+    }
+}

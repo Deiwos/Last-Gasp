@@ -1,0 +1,106 @@
+[
+	{
+        "key": "CELESTIALSCANNING",
+        "ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+        ]
+	},
+	{
+		"key": "ARCANEEAR",
+		"ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
+	},
+	{
+		"key": "BASICTURRET",
+		"ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
+	},
+	{
+		"key": "ADVANCEDTURRET",
+		"ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
+	},
+	{
+		"key": "ARCANEBORE",
+		"ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
+	},
+	{
+		"key": "LAMPFERTILITY",
+		"ops": [
+			{
+				"op": "remove",
+				"path": "key"
+			}
+		]
+	},
+	{"key": "ARMORFORTRESS",
+	"ops":[
+	{"op": "remove",
+	"path": "key"
+	}]},
+	{"key": "FORTRESSMASK",
+	"ops":[
+	{"op": "remove",
+	"path": "key"
+	}]},
+	{"key": "HARNESS_BASE",
+	"ops":[
+	{"op": "remove",
+	"path": "key"
+	}]},
+	{"key": "THAUMOSTATIC_HARNESS",
+	"ops":[
+	{"op": "remove",
+	"path": "key"
+	}]},
+	{"key": "THAUMOSTATIC_GYROSCOPE",
+	"ops":[
+	{"op": "remove",
+	"path": "key"
+	}]},
+	{"key": "THAUMOSTATIC_GIRDLE",
+	"ops":[
+	{"op": "remove",
+	"path": "key"
+	}]},
+	{"key": "ELYTRA_HARNESS",
+	"ops":[
+	{"op": "remove",
+	"path": "key"
+	}]},
+	{"key": "ELYTRA_BOOSTER",
+	"ops":[
+	{"op": "remove",
+	"path": "key"
+	}]},
+	{"key": "CELESTIAL_OBSERVER",
+	"ops":[
+	{"op": "remove",
+	"path": "key"
+	}]},
+	{"key": "AUTOCASTER",
+	"ops":[
+	{"op": "remove",
+	"path": "key"
+	}]}
+]

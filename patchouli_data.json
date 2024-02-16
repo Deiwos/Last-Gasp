@@ -1,0 +1,81 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "bewitchment:book_of_shadows": {
+      "viewedEntries": [
+        "bewitchment:magic_overview/altars_and_modifiers",
+        "bewitchment:magic_overview/athame",
+        "bewitchment:magic_overview/codex_infernalis",
+        "bewitchment:magic_overview/fortunes_favor",
+        "bewitchment:magic_overview/witches_devices",
+        "bewitchment:magic_overview/nazar",
+        "bewitchment:magic_overview/hecates_visage",
+        "bewitchment:magic_overview/grimoire_magia",
+        "bewitchment:spinning_wheel/magic_string",
+        "bewitchment:spinning_wheel/alchemist_attire",
+        "bewitchment:spinning_wheel/greenwitch_robes",
+        "bewitchment:spinning_wheel/witches_robes",
+        "bewitchment:distilling_and_smelting/witches_oven_and_distillery",
+        "bewitchment:distilling_and_smelting/basic_fumes",
+        "bewitchment:distilling_and_smelting/advanced_fumes",
+        "bewitchment:distilling_and_smelting/jar",
+        "bewitchment:cauldron_and_brewing/alchemical_plants",
+        "bewitchment:cauldron_and_brewing/slime",
+        "bewitchment:cauldron_and_brewing/brewing",
+        "bewitchment:cauldron_and_brewing/cauldron_washing"
+      ],
+      "bookmarks": [],
+      "history": [
+        "bewitchment:cauldron_and_brewing/cauldron_washing",
+        "bewitchment:cauldron_and_brewing/brewing",
+        "bewitchment:cauldron_and_brewing/slime",
+        "bewitchment:cauldron_and_brewing/alchemical_plants",
+        "bewitchment:distilling_and_smelting/jar",
+        "bewitchment:distilling_and_smelting/basic_fumes",
+        "bewitchment:distilling_and_smelting/advanced_fumes",
+        "bewitchment:distilling_and_smelting/witches_oven_and_distillery",
+        "bewitchment:spinning_wheel/witches_robes",
+        "bewitchment:spinning_wheel/greenwitch_robes",
+        "bewitchment:spinning_wheel/alchemist_attire",
+        "bewitchment:spinning_wheel/magic_string",
+        "bewitchment:magic_overview/grimoire_magia"
+      ],
+      "completedManualQuests": []
+    },
+    "pneumaticcraft:book": {
+      "viewedEntries": [
+        "pneumaticcraft:logistics/overview",
+        "pneumaticcraft:logistics/logistic_drones",
+        "pneumaticcraft:logistics/frames",
+        "pneumaticcraft:programming/programmer",
+        "pneumaticcraft:base_concepts/getting_started",
+        "pneumaticcraft:tubes/pressure_tubes",
+        "pneumaticcraft:components/plastic"
+      ],
+      "bookmarks": [],
+      "history": [
+        "pneumaticcraft:components/plastic",
+        "pneumaticcraft:tubes/pressure_tubes",
+        "pneumaticcraft:base_concepts/getting_started",
+        "pneumaticcraft:programming/programmer",
+        "pneumaticcraft:logistics/frames",
+        "pneumaticcraft:logistics/logistic_drones",
+        "pneumaticcraft:logistics/overview"
+      ],
+      "completedManualQuests": []
+    },
+    "engineersdecor:engineersdecor_manual": {
+      "viewedEntries": [
+        "engineersdecor:structural/wooden_supports",
+        "engineersdecor:fluidics/passive_fluid_accumulator"
+      ],
+      "bookmarks": [],
+      "history": [
+        "engineersdecor:fluidics/passive_fluid_accumulator",
+        "engineersdecor:structural/wooden_supports"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

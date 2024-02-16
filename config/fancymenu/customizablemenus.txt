@@ -1,0 +1,8 @@
+type = customizablemenus
+
+adubbz.lockdown.gui.GuiMainMenuTweaked {
+}
+
+net.minecraft.client.gui.inventory.GuiInventory {
+}
+

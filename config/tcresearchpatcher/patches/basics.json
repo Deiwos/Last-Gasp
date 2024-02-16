@@ -1,0 +1,11 @@
+[	
+	{
+		"key": "UNLOCKAUROMANCY",
+		"ops": [
+			{
+				"op": "remove",
+				"path": "stages/0/required_research/0"
+			}
+		]
+	}
+]

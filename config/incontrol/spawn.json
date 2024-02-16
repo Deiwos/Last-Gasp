@@ -1,0 +1,14 @@
+[
+  {
+    "passive": true,
+    "dimension": -30,
+    "onjoin": true,
+    "result": "deny"
+  },
+  {
+	"hostile": true,
+	"dimension": -30,
+    "onjoin": true,
+    "result": "deny"
+  }
+]

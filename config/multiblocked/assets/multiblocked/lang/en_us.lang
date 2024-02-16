@@ -1,0 +1,50 @@
+#PARSE_ESCAPES
+
+multiblocked.autodaisy.description=Automates the transmutation of Livingrock and Livingwood
+autodaisy.name=Automated Pure Daisy
+tile.multiblocked.autodaisy.name=Automated Pure Daisy
+multiblocked.recipe_map.autodaisyrecipes=Automated Pure Daisy
+
+multiblocked.autoendoflame.description=A self-contained Endoflame in a multiblock
+autoendoflame.name=Automated Endoflame
+multiblocked.recipe_map.endomana=Automated Endoflame
+tile.multiblocked.autoendoflame.name=Endoflame Pylon
+
+multiblocked.autothermalily.description=A self-contained Thermalily in a multiblock
+autothermalily.name=Automated Thermalily
+multiblocked.recipe_map.thermomana=Automated Thermalily
+tile.multiblocked.autothermalily.name=Thermalily Pylon
+
+tile.multiblocked.manacompressor.name=Mana Compression Chamber Controller
+manacompressor.name=Mana Compression Chamber
+multiblocked.manacompressor.description=Combines items with Mana under high pressure
+multiblocked.recipe_map.manacompressor=Mana Compression
+
+contenttweaker.part.wire=%s Wire
+fluid.silver_solder=Silver Solder
+fluid.tin_solder=Tin Solder
+
+tile.multiblocked.lifeempowerer.name=Empowerer Pylon
+lifeempowerer.name=Life Essence Empowerer
+multiblocked.lifeempowerer.description=A ritual to empower items with essentia and LP
+multiblocked.recipe_map.lifeempower=Essence Empowerment
+
+research.DEEPMOBINTRO.title=Simulating Life
+research.DEEPMOBINTRO.stage.1=Although I have had successes with reinvigorating dead organic matter with life essence, and producing synthetic meat from existing tissue samples, creating life outright is far beyond me obviously. But.. as I develop more sophisticated computing technology, it might be possible to simulate living beings to the extent that I can use essentia to create products derived from them.\n \nI'm hoping Metametal will serve as a useful interface metal here, too...
+research.DEEPMOBINTRO.stage.2=As I hoped, Metametal serves to protect the delicate electronics while acting to channel the.. aspectral power? Sure, I'll call it that. I think I can rig up a computer to do the simulating with this. Actually producing the products will require more work.
+
+research.DEEPMOBLOOT.title=Resource Extraction
+research.DEEPMOBLOOT.stage.1=Thinking more on the problem, just creating items out of essentia alone isn't going to work any better than creating life from nothing. I'll need some kind of substance that can be molded and shaped. Like clay...
+research.DEEPMOBLOOT.stage.2=Perfect! That worked exactly as I hoped. Creating the machine that forms this into the resources I desire will be almost trivial now. It's amazing how writing in a journal like this helps me be so creative.
+
+research.LIFEEMPOWERMENT.title=Empowering Life
+research.LIFEEMPOWERMENT.stage.1=I've been thinking about how I might produce the more advanced materials I require, and infusion crafting has given me an idea.\n \nWhile I was able to rejuvenate dead things, what if I were to infuse that life essence into the base seeds themselves, empowering them further? I suppose my first experiment will need to be whether I can use these kinds of energy together in the first place...
+research.LIFEEMPOWERMENT.stage.2=Results so far are promising. The floating crystal beacons or pylons I've fashioned are excellent conductors and relays of energy, so I think they would be suitable as a focus here, but I think I'll want a more powerful version than the ones I've been using.
+research.LIFEEMPOWERMENT.stage.3=It seems that while these energies take on different forms, they may all be connected in some underlying way. In any case they are compatible, in a way that they aren't with electricity and radio waves.\n \nIn any case, I have worked out an empowerment structure similar to the Infusion altar that should be able to combine items, elemental essentia and life essence to produce what I want. It may even have further applications.
+
+research.RESOURCESEEDS.title=Advanced Resource Seeds
+research.RESOURCESEEDS.stage.1=With the ability to make these advanced seed bases, I can now craft seeds to make the new resources I need to progress!
+
+research.MOBMODELS.title=Simulation Models
+research.MOBMODELS.stage.1=In order to simulate creatures, I will need some way of providing data about the creatures for the simulator to use. With what I've learned about animating energy, I think I'll be able to create a plate that will hold the data. Of the materials I have available, I believe silver will be the best medium due to its conductivity.
+research.MOBMODELS.stage.2=Now that I have a blank model, I will need to infuse the essential essences of each creature into them. These are just simulations, they don't need to be exact; it's not like I'm creating real creatures.

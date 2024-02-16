@@ -1,0 +1,107 @@
+[
+	{
+		"key": "HEDGEALCHEMY",
+		"ops": [
+			{"op": "remove",
+			"path": "stages/1/required_craft/1"}
+		]
+	},
+	{
+		"key": "ESSENTIASMELTER",
+		"ops": [
+			{"op": "remove",
+			"path": "stages/1/required_item/9"},
+			{"op": "remove",
+			"path": "stages/1/required_item/8"},
+			{"op": "remove",
+			"path": "stages/1/required_item/7"},
+			{"op": "remove",
+			"path": "stages/1/required_item/6"},
+			{"op": "remove",
+			"path": "stages/1/required_item/5"},
+			{"op": "remove",
+			"path": "stages/1/required_item/4"},
+			{"op": "remove",
+			"path": "stages/2/required_knowledge/1"}
+		]
+	},
+	{
+		"key": "TUBES",
+		"ops": [
+			{"op": "replace",
+			"path": "stages/0/required_item/0",
+			"value": "thaumcraft:phial;1;1;{Aspects: [{amount:10,key:'praecantatio'}]}"},
+			{"op": "replace",
+			"path": "stages/0/required_item/1",
+			"value": "thaumcraft:phial;1;1;{Aspects: [{amount:10,key:'ordo'}]}"},
+			{"op": "replace",
+			"path": "stages/0/required_item/2",
+			"value": "thaumcraft:phial;1;1;{Aspects: [{amount:10,key:'potentia'}]}"},
+			{"op": "replace",
+			"path": "stages/0/required_item/3",
+			"value": "thaumcraft:phial;1;1;{Aspects: [{amount:10,key:'auram'}]}"}]		
+	},
+	{
+		"key": "METALLURGY",
+		"ops": [
+			{"op": "replace",
+			"path": "stages/1/required_knowledge/0",
+			"value": "OBSERVATION;ALCHEMY;1"}
+		]
+	},
+	{
+		"key": "METALPURIFICATION",
+		"ops": [
+			{"op": "replace",
+			"path": "stages/0/required_knowledge/0",
+			"value": "OBSERVATION;ALCHEMY;1"}
+		]
+	},
+	{
+		"key": "BOTTLETAINT",
+		"ops": [
+			{"op": "replace",
+			"path": "stages/0/required_knowledge/1",
+			"value": "OBSERVATION;ALCHEMY;1"}
+		]
+	},
+	{
+		"key": "BATHSALTS",
+		"ops": [
+			{"op": "remove",
+			"path": "stages/0/required_knowledge/1",
+			"value": "OBSERVATION;ALCHEMY;1"}
+		]
+	},
+	{
+		"key": "ESSENTIASMELTERTHAUMIUM",
+		"ops": [
+			{"op": "replace",
+			"path": "stages/0/required_knowledge/0",
+			"value": "OBSERVATION;ALCHEMY;1"}
+		]
+	},
+	{
+		"key": "CENTRIFUGE", 
+		"ops": [
+			{"op": "replace",
+			"path": "stages/0/required_knowledge/0",
+			"value": "OBSERVATION;ALCHEMY;1"}
+		]
+	},
+	{
+		"key": "EVERFULLURN", 
+		"ops": [
+			{"op": "replace",
+			"path": "stages/0/required_knowledge/0",
+			"value": "OBSERVATION;BASICS;1"}
+		]
+	},
+	{
+		"key": "POTIONSPRAYER",
+		"ops": [
+			{"op": "remove",
+			"path": "stages/0/required_knowledge/1"}
+		]
+	}
+]

@@ -1,0 +1,867 @@
+{
+  "name": "manacompressor",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "b5a111e5-2f30-4e6c-a7e4-1f18a1a45c3a",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeLime"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:10s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b7d8a81c-7dcd-4cee-a6aa-5528fec14be0",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeWhite"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:15s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "219c0d68-345c-4eb4-8e22-52a50a84f9ed",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyePink"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:9s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "7326f3c3-db3c-46fd-bfe3-bcdd2016454a",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:gunpowder\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:blaze_powder\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 2.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "51005df5-b7bd-46c2-8f07-2eb5ae2a83a7",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeGray"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:8s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c85083c3-4bee-47d2-b32e-da30b18b073c",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeCyan"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:6s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1e9a6335-748a-4445-9e9e-dc8337c96fbc",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeMagenta"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:13s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "431d7a84-6972-4d6f-a510-1adf2c54e7bb",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeLightGray"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:7s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5b9af64f-1f40-462a-922b-52bcc9f96e88",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeRed"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "6aa3eb39-aa9d-4510-984e-57e7af5d0536",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyePurple"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:5s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "938b37b1-0ddd-4999-a4ec-702d9fcec493",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeOrange"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:14s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f210d0a5-ffe1-400b-825b-c95d7b9c15c7",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeBlack"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2e9e48d3-eb6b-445f-ac2c-69f320bc22f5",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeBlue"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:4s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ba0e994e-ea9a-4069-92ef-ebca7e40e83e",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeGreen"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3a88b006-37c1-4f19-a089-c46f5a1ca6df",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeBrown"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:3s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "bbd0b2b7-5792-4e7b-bf50-3e7f076b53e4",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeLightBlue"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:12s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1018646a-f425-4c8b-9ebc-9592a32a9235",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"emergingtechnology:plasticsheet\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dyeYellow"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"pneumaticcraft:plastic\",Count:1,Damage:11s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "pneumatic_pressure": [
+          {
+            "chance": 1.0,
+            "content": 1.0
+          }
+        ],
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 25
+          }
+        ]
+      }
+    }
+  ]
+}

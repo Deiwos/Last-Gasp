@@ -1,0 +1,53 @@
+[
+	{
+		"key": "RECHARGEPEDESTAL",
+		"ops": [
+		{"op": "replace",
+		"path": "stages/0/required_knowledge/0",
+		"value": "OBSERVATION;AUROMANCY;1"}
+		]
+	},
+	{"key": "VISAMULET",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;AUROMANCY;1"}
+	]},
+	{"key": "FOCUSFLUX",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;AUROMANCY;1"},
+	{"op": "add",
+	"path": "stages/0/required_research/0",
+	"value": "f_toomuchflux"}
+	]},
+	{"key": "FOCUSPROJECTILE",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;AUROMANCY;1"},
+	{"op": "remove",
+	"path": "stages/1/required_research/2"},
+	{"op": "remove",
+	"path": "stages/1/required_research/1"}
+	]},
+	{"key": "FOCUSHEAL",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;AUROMANCY;1"}
+	]},
+	{"key": "FOCUSBREAK",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;AUROMANCY;1"}
+	]},
+	{"key": "FOCUSEXCHANGE",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;AUROMANCY;1"}
+	]}
+]

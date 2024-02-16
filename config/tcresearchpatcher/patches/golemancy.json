@@ -1,0 +1,41 @@
+[
+	{"key": "JARBRAIN",
+	"ops": [
+	{"op": "remove",
+	"path": "stages/0/required_knowledge/1"},
+	{"op": "remove",
+	"path": "stages/0/required_research/0"}
+	]},
+	{"key": "GOLEMVISION",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;GOLEMANCY;1"
+	}]},
+	{"key": "GOLEMCLIMBER",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;GOLEMANCY;1"},
+	{"op": "remove",
+	"path": "stages/0/required_research/0"}
+	]},
+	{"key": "GOLEMBREAKER",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;GOLEMANCY;1"
+	}]},
+	{"key": "SEALEMPTY",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;GOLEMANCY;1"
+	}]},
+	{"key": "SEALBREAK",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;GOLEMANCY;1"
+	}]}
+]

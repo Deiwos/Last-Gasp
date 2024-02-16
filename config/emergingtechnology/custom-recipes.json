@@ -1,0 +1,14 @@
+{
+    "processor": [
+        {
+            "input": "emergingtechnology:filament",
+            "inputMeta": 0,
+            "inputNBTData": "",
+            "inputCount": "1",
+            "output": "emergingtechnology:plasticblock",
+            "outputMeta": 0,
+            "outputNBTData": "",
+            "outputCount": "1"
+        }
+    ]
+}

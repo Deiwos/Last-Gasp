@@ -1,0 +1,18 @@
+{
+  "id": "Hanger_-6082,77,-6150",
+  "name": "Hanger",
+  "icon": "waypoint-normal.png",
+  "x": -6082,
+  "y": 77,
+  "z": -6150,
+  "r": 178,
+  "g": 209,
+  "b": 90,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -2
+  ],
+  "persistent": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "Stargate_-5818,72,-6205",
+  "name": "Stargate",
+  "icon": "waypoint-normal.png",
+  "x": -5818,
+  "y": 72,
+  "z": -6205,
+  "r": 146,
+  "g": 71,
+  "b": 11,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    9
+  ],
+  "persistent": true
+}

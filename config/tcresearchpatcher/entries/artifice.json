@@ -1,0 +1,61 @@
+{
+	"entries" :[
+	{
+		"key": "DEEPMOBINTRO",
+		"name": "research.DEEPMOBINTRO.title",
+		"icons": [ "deepmoblearning:simulation_chamber" ],
+		"category": "ARTIFICE", "location": [ -2,-3 ],
+		"parents": ["REDSTONERELAY", "INFUSION"],
+		"meta": [ "SPIKY" ],
+		"stages": [
+				{
+					"text": "research.DEEPMOBINTRO.stage.1",
+					"required_knowledge": ["THEORY;ARTIFICE;1", "OBSERVATION;INFUSION;1"],
+					"required_item": ["thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:'victus'}]}", "thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:'tempus'}]}", "contenttweaker:material_part;1;23"]
+				},
+				{
+					"text": "research.DEEPMOBINTRO.stage.2",
+					"recipes": ["thaumcraft:SimulationChamber"],
+					"warp": 5
+				}]
+	},
+	{
+		"key": "DEEPMOBLOOT",
+		"name": "research.DEEPMOBLOOT.title",
+		"icons": [ "deepmoblearning:extraction_chamber" ],
+		"category": "ARTIFICE", "location": [ -3, -5 ],
+		"parents": ["DEEPMOBINTRO", "MOBMODELS"],
+		"stages": [
+				{
+					"text": "research.DEEPMOBLOOT.stage.1",
+					"required_knowledge": ["OBSERVATION;ARTIFICE;1", "OBSERVATION;ALCHEMY;1"],
+					"recipes": ["thaumcraft:PolymerClay"],
+					"required_craft": ["deepmoblearning:polymer_clay"]
+				},
+				{
+					"text": "research.DEEPMOBLOOT.stage.2",
+					"recipes": ["thaumcraft:ExtractionChamber"],
+					"warp": 5
+				}]
+	},
+	{
+		"key": "MOBMODELS",
+		"name": "research.MOBMODELS.title",
+		"icons": [ "deepmoblearning:data_model_blank" ],
+		"category": "ARTIFICE", "location": [ -4, -3 ],
+		"parents": ["DEEPMOBINTRO"],
+		"stages": [
+				{
+					"text": "research.MOBMODELS.stage.1",
+					"required_knowledge": ["OBSERVATION;AUROMANCY;1", "OBSERVATION;GOLEMANCY;1"],
+					"recipes": ["thaumcraft:BlankModel"],
+					"required_craft": ["deepmoblearning:data_model_blank"]
+				},
+				{
+					"text": "research.MOBMODELS.stage.2",
+					"required_knowledge": ["OBSERVATION;INFUSION;1"],
+					"recipes": ["thaumcraft:BlazeModel", "thaumcraft:GhastModel", "thaumcraft:GuardianModel", "thaumcraft:SkeletonModel", "thaumcraft:SpiderModel", "thaumcraft:ZombieModel"],
+					"warp": 5
+				}]}
+	]
+}

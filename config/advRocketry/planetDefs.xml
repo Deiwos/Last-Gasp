@@ -1,0 +1,161 @@
+<galaxy>
+    <star name="False Light" temp="40" x="0" y="0" numPlanets="0" numGasGiants="0" blackHole="false" size="1.0">
+        <star name="Sol Apocalypse" temp="100" blackHole="true" separation="0.0" size="0.75" />
+        <planet name="Terra Interitus" customIcon="IceWorld" DIMID="9">
+            <atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>40</orbitalDistance>
+            <orbitalTheta>0</orbitalTheta>
+            <rotationalPeriod>24000</rotationalPeriod>
+			<generateCraters>false</generateCraters>
+			<avgTemperature>200</avgTemperature>
+			<hasrings>true</hasrings>
+            <hasCraters>true</hasCraters>
+            <hasOxygen>false</hasOxygen>
+            <fogColor>0xA19A9B</fogColor>
+            <skyColor>0xA19A9B</skyColor>
+            <oceanBlock>minecraft:ice</oceanBlock>
+            <biomeIds>10,12,13</biomeIds>
+        </planet>
+		<planet name="Vyelyn" customIcon="WaterWorld" DIMID="10">
+			<atmosphereDensity>100</atmosphereDensity>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <orbitalDistance>100</orbitalDistance>
+            <orbitalTheta>82</orbitalTheta>
+            <orbitalPhi>6</orbitalPhi>
+            <rotationalPeriod>12000</rotationalPeriod>
+            <avgTemperature>300</avgTemperature>
+            <generateCraters>false</generateCraters>
+            <hasOxygen>true</hasOxygen>
+            <seaLevel>200</seaLevel>
+            <biomeIds>0,24,103</biomeIds>
+            <fillerBlock>minecraft:sand</fillerBlock>
+        </planet>
+        <planet name="Syast" customIcon="MarsLike" DIMID="11">
+            <atmosphereDensity>150</atmosphereDensity>
+            <gravitationalMultiplier>75</gravitationalMultiplier>
+            <orbitalDistance>75</orbitalDistance>
+            <orbitalTheta>289</orbitalTheta>
+            <rotationalPeriod>6000</rotationalPeriod>
+            <avgTemperature>450</avgTemperature>
+            <generateCraters>false</generateCraters>
+            <hasOxygen>false</hasOxygen>
+            <fogColor>0xC1440E</fogColor>
+            <skyColor>0xC1440E</skyColor>
+            <biomeIds>121,128</biomeIds>
+            <oceanBlock>minecraft:lava</oceanBlock>
+            <planet name="Uemetlyn" customIcon="Moon" DIMID="12">
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>30</gravitationalMultiplier>
+                <orbitalDistance>80</orbitalDistance>
+                <orbitalTheta>100</orbitalTheta>
+                <orbitalPhi>78</orbitalPhi>
+                <rotationalPeriod>200000</rotationalPeriod>
+                <generateCraters>false</generateCraters>
+                <avgTemperature>80</avgTemperature>
+                <hasOxygen>false</hasOxygen>
+                <genType>2</genType>
+                <fillerBlock>galacticraftplanets:asteroids_block:2</fillerBlock>
+            </planet>
+            <planet name="Utepelo" customIcon="Moon" DIMID="13">
+                <atmosphereDensity>0</atmosphereDensity>
+                <orbitalTheta>225</orbitalTheta>
+                <gravitationalMultiplier>5</gravitationalMultiplier>
+                <orbitalDistance>120</orbitalDistance>
+                <rotationalPeriod>44000</rotationalPeriod>
+                <generateCraters>false</generateCraters>
+                <avgTemperature>150</avgTemperature>
+                <orbitalPhi>170</orbitalPhi>
+                <hasOxygen>false</hasOxygen>
+            </planet>
+        </planet>       
+        <planet name="Mykaia" customIcon="GasGiantRed" DIMID="20">
+            <hasrings>true</hasrings>
+            <ringColor>0xf54040</ringColor>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+            <atmosphereDensity>1000</atmosphereDensity>
+            <gravitationalMultiplier>300</gravitationalMultiplier>
+            <orbitalDistance>300</orbitalDistance>
+            <rotationalPeriod>200000</rotationalPeriod>
+            <orbitalTheta>64</orbitalTheta>
+            <avgTemperature>1000</avgTemperature>
+            <hasOxygen>no</hasOxygen>
+            <planet name="Mel" customIcon="CarbonWorld" DIMID="14">
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>40</gravitationalMultiplier>
+                <orbitalDistance>50</orbitalDistance>
+                <rotationalPeriod>24000</rotationalPeriod>
+                <generateCraters>false</generateCraters>
+                <avgTemperature>300</avgTemperature>
+                <hasOxygen>false</hasOxygen>
+            </planet>
+            <planet name="Stull" customIcon="DesertWorld" DIMID="15">
+                <atmosphereDensity>30</atmosphereDensity>
+                <gravitationalMultiplier>50</gravitationalMultiplier>
+                <orbitalDistance>60</orbitalDistance>
+                <rotationalPeriod>20000</rotationalPeriod>
+                <generateCraters>false</generateCraters>
+                <avgTemperature>260</avgTemperature>
+                <hasOxygen>false</hasOxygen>
+                <orbitalPhi>45</orbitalPhi>
+            </planet>
+            <planet name="Effil" customIcon="IceWorld" DIMID="16">
+                <atmosphereDensity>80</atmosphereDensity>
+                <gravitationalMultiplier>60</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <generateCraters>false</generateCraters>
+                <avgTemperature>200</avgTemperature>
+                <hasOxygen>false</hasOxygen>
+                <orbitalPhi>30</orbitalPhi>
+                <rotationalPeriod>8000</rotationalPeriod>
+            </planet>
+            <planet name="Sphell" customIcon="MarsLike" DIMID="17">
+                <atmosphereDensity>30</atmosphereDensity>
+                <gravitationalMultiplier>30</gravitationalMultiplier>
+                <orbitalDistance>230</orbitalDistance>
+                <rotationalPeriod>180000</rotationalPeriod>
+                <generateCraters>false</generateCraters>
+                <avgTemperature>250</avgTemperature>
+                <hasOxygen>false</hasOxygen>
+                <orbitalPhi>90</orbitalPhi>
+            </planet>
+        </planet>
+        <planet name="Vyaffy" customIcon="GasGiantBlue" DIMID="21">
+            <hasrings>true</hasrings>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+            <atmosphereDensity>1000</atmosphereDensity>
+            <gravitationalMultiplier>250</gravitationalMultiplier>
+            <orbitalDistance>450</orbitalDistance>
+            <rotationalPeriod>200000</rotationalPeriod>
+            <orbitalTheta>180</orbitalTheta>
+            <avgTemperature>1000</avgTemperature>
+            <hasOxygen>no</hasOxygen>
+            <planet name="Mentry" customIcon="Lava" DIMID="18">
+                <atmosphereDensity>200</atmosphereDensity>
+                <gravitationalMultiplier>30</gravitationalMultiplier>
+                <orbitalDistance>40</orbitalDistance>
+                <generateCraters>false</generateCraters>
+                <avgTemperature>800</avgTemperature>
+                <rotationalPeriod>8000</rotationalPeriod>
+            </planet>
+            <planet name="Brarty" customIcon="WaterWorld" DIMID="19">
+                <atmosphereDensity>140</atmosphereDensity>
+                <gravitationalMultiplier>50</gravitationalMultiplier>
+                <orbitalDistance>150</orbitalDistance>
+                <generateCraters>false</generateCraters>
+                <avgTemperature>300</avgTemperature>
+                <rotationalPeriod>8000</rotationalPeriod>
+                <hasOxygen>true</hasOxygen>
+            </planet>
+        </planet> 
+    </star>
+    <star name="Temp" x="100" y="100" numPlanets="0" numGasGiants="0" size="1.0">
+        <planet name="Overworld" customIcon="Earthlike" DIMID="0" dimMapping="">
+            <orbitalDistance>100</orbitalDistance>
+            <gravitationalMultiplier>100</gravitationalMultiplier>
+            <atmosphereDensity>100</atmosphereDensity>
+        </planet>
+    </star>
+</galaxy>

@@ -1,0 +1,93 @@
+type = menu
+
+customization-meta {
+  identifier = adubbz.lockdown.gui.GuiMainMenuTweaked
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/bg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400358%
+  orientation = bottom-right
+  x = -150
+  action = movebutton
+  y = -98
+}
+
+customization {
+  identifier = %id=400358%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502358%
+  orientation = bottom-right
+  x = -150
+  action = movebutton
+  y = -48
+}
+
+customization {
+  identifier = %id=502358%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376358%
+  orientation = bottom-right
+  x = -175
+  action = movebutton
+  y = -98
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = bottom-right
+  x = -150
+  action = movebutton
+  y = -73
+}
+
+customization {
+  identifier = %id=400322%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = bottom-right
+  x = -150
+  action = movebutton
+  y = -123
+}
+
+customization {
+  identifier = %id=400298%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+

@@ -1,0 +1,41 @@
+{
+	"entries": [
+	{
+		"key": "LIFEEMPOWERMENT",
+		"name": "research.LIFEEMPOWERMENT.title",
+		"icons": [ "multiblocked:lifeempowerer" ],
+		"category": "INFUSION", "location": [ 1,4 ],
+		"parents": ["INFUSION"],
+		"meta": ["SPIKY"],
+		"stages": [
+				{
+					"text": "research.LIFEEMPOWERMENT.stage.1",
+					"required_knowledge": [ "THEORY;INFUSION;1", "OBSERVATION;ALCHEMY;1" ],
+					"required_item": ["bloodmagic:blood_rune", "thaumcraft:stone_arcane"]
+				},
+				{
+					"text": "research.LIFEEMPOWERMENT.stage.2",
+					"required_knowledge": [ "OBSERVATION;ARTIFICE;1" ],
+					"required_craft": ["botania:pylon;1;2"]
+				},
+				{
+					"text": "research.LIFEEMPOWERMENT.stage.3",
+					"recipes": ["thaumcraft:LifePylon"],
+					"warp": 5
+				}
+		]
+	},
+	{
+		"key": "RESOURCESEEDS",
+		"name": "research.RESOURCESEEDS.title",
+		"icons": [ "mysticalagriculture:crafting;1;19" ],
+		"category": "INFUSION", "location": [ 1,6 ],
+		"parents": ["LIFEEMPOWERMENT"],
+		"meta": ["ROUND"],
+		"stages": [
+				{
+					"text": "research.RESOURCESEEDS.stage.1"
+				}
+		]
+	}]
+}

@@ -1,0 +1,39 @@
+[
+	{ "key": "INFERNALFURNACE",
+	"ops": [
+	{"op": "remove",
+	"path": "stages/0/required_research/1"
+	}]},
+	{"key": "MIRRORHAND",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;ARTIFICE;1"
+	}]},
+	{"key": "MIRRORESSENTIA", 
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;ARTIFICE;1"
+	}]},
+	{"key": "LAMPGROWTH",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;ARTIFICE;1"
+	}]},
+	{"key": "ARCANEPATTERNCRAFTER",
+	"ops": [
+	{"op": "remove",
+	"path": "stages/0/required_knowledge/2"
+	}]},
+	{"key": "GRAPPLEGUN",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;ARTIFICE;1"},
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/1",
+	"value": "OBSERVATION;BASICS;1"
+	}]}
+]

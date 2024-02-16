@@ -1,0 +1,297 @@
+{
+  "version": 2,
+  "location": "multiblocked:manacompressor",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "modularmachinery:blockcasing",
+          "meta": 5
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "manacompressor",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        " AAA ",
+        "BFDFB",
+        "     ",
+        "     "
+      ],
+      [
+        "AEEEA",
+        "FEGEF",
+        " IEI ",
+        "     "
+      ],
+      [
+        "AEGEA",
+        "JG GK",
+        " EGE ",
+        "     "
+      ],
+      [
+        "AEEEA",
+        "FEGEF",
+        " IEI ",
+        "     "
+      ],
+      [
+        " A@A ",
+        "BFCFB",
+        "     ",
+        "     "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "botania:livingrock",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "multiblocked:manacompressor",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "botania:pylon",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "immersiveengineering:wooden_device0",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "pneumaticcraft:charging_station",
+            "meta": 0
+          },
+          {
+            "id": "pneumaticcraft:charging_station",
+            "meta": 1
+          },
+          {
+            "id": "pneumaticcraft:charging_station",
+            "meta": 2
+          },
+          {
+            "id": "pneumaticcraft:charging_station",
+            "meta": 3
+          },
+          {
+            "id": "pneumaticcraft:charging_station",
+            "meta": 4
+          },
+          {
+            "id": "pneumaticcraft:charging_station",
+            "meta": 5
+          },
+          {
+            "id": "pneumaticcraft:charging_station",
+            "meta": 6
+          },
+          {
+            "id": "pneumaticcraft:charging_station",
+            "meta": 7
+          },
+          {
+            "id": "pneumaticcraft:charging_station",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "modularmachinery:blockcasing",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "botania:livingrock1stairs",
+            "meta": 0
+          },
+          {
+            "id": "botania:livingrock1stairs",
+            "meta": 1
+          },
+          {
+            "id": "botania:livingrock1stairs",
+            "meta": 2
+          },
+          {
+            "id": "botania:livingrock1stairs",
+            "meta": 3
+          },
+          {
+            "id": "botania:livingrock1stairs",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "pneumaticcraft:pressure_chamber_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "botania:elfglass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "immersiveengineering:wooden_device0",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "OUT"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "modularmachinery:blockmanaproviderinput",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "botania:livingrock1stairs",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ]
+    }
+  }
+}

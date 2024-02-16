@@ -1,0 +1,36 @@
+[
+	{
+		"key": "INFUSIONBOOST",
+		"ops": [
+			{"op": "replace",
+			"path": "stages/0/required_knowledge/0",
+			"value": "OBSERVATION;INFUSION;1"}
+			]
+	},
+	{ "key": "CURIOSITYBAND",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/1",
+	"value": "OBSERVATION;INFUSION;1"
+	}]},
+	{"key": "VERDANTCHARMS",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "OBSERVATION;INFUSION;2"
+	}]},
+	{"key": "BOOTSTRAVELLER",
+	"ops": [
+	{"op": "remove",
+	"path": "stages/0/required_research/3"
+	}]},
+	{"key": "ELEMENTALTOOLS",
+	"ops": [
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/0",
+	"value": "THEORY;INFUSION;1"},
+	{"op": "replace",
+	"path": "stages/0/required_knowledge/1",
+	"value": "OBSERVATION;BASICS;1"}
+	]}
+]

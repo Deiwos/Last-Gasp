@@ -1,0 +1,30 @@
++------------+------------------+------------------+-----------------+------------------+---------------------------------------------------------------------------------+
+|         ID | DimensionType ID | Name             | shouldLoadSpawn | Currently loaded | WorldProvider class                                                             |
++------------+------------------+------------------+-----------------+------------------+---------------------------------------------------------------------------------+
+|          0 |                0 | overworld        |            true |             true | net.minecraft.world.WorldProviderSurface                                        |
+|          1 |                1 | the_end          |           false |            false | net.minecraft.world.WorldProviderEnd                                            |
+|         -1 |               -1 | Nether           |           false |            false | biomesoplenty.common.world.WorldProviderBOPHell                                 |
+|      14676 |            14676 | emptiness        |           false |            false | thecodex6824.thaumicaugmentation.common.world.WorldProviderEmptiness            |
+| -343800852 |       -343800852 | Spectre          |            true |             true | lumien.randomthings.handler.spectre.SpectreWorldProvider                        |
+|         -2 |                3 | space            |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderSpace                   |
+|          2 |              -11 | Storage Cell     |            true |             true | appeng.spatial.StorageWorldProvider                                             |
+|          9 |                2 | planet           |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                  |
+|          8 |                4 | asteroid         |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderAsteroid                |
+|         10 |                2 | planet           |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                  |
+|         11 |                2 | planet           |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                  |
+|         12 |                2 | planet           |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                  |
+|         13 |                2 | planet           |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                  |
+|         14 |                2 | planet           |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                  |
+|         15 |                2 | planet           |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                  |
+|         16 |                2 | planet           |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                  |
+|         17 |                2 | planet           |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                  |
+|         18 |                2 | planet           |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                  |
+|         19 |                2 | planet           |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet                  |
+|        -30 |              -30 | planet.asteroids |            true |             true | micdoodle8.mods.galacticraft.planets.asteroids.dimension.WorldProviderAsteroids |
+|        -29 |              -29 | planet.mars      |            true |            false | micdoodle8.mods.galacticraft.planets.mars.dimension.WorldProviderMars           |
+|        -31 |              -31 | planet.venus     |            true |            false | micdoodle8.mods.galacticraft.planets.venus.dimension.WorldProviderVenus         |
+|        -28 |              -28 | moon.moon        |            true |            false | micdoodle8.mods.galacticraft.core.dimension.WorldProviderMoon                   |
+|          4 |              -26 | Space Station    |            true |             true | micdoodle8.mods.galacticraft.core.dimension.WorldProviderOverworldOrbit         |
++------------+------------------+------------------+-----------------+------------------+---------------------------------------------------------------------------------+
+|         ID | DimensionType ID | Name             | shouldLoadSpawn | Currently loaded | WorldProvider class                                                             |
++------------+------------------+------------------+-----------------+------------------+---------------------------------------------------------------------------------+

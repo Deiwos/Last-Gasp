@@ -1,0 +1,11 @@
+/asm/
+/caches/
+/local/
+/natives/
+/backups/
+/mods/
+/logs/
+/crash-reports/
+/saves/
+/vintagefix/
+!/saves/Last Gasp/

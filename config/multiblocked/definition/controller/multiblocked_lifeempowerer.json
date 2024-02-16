@@ -1,0 +1,221 @@
+{
+  "version": 2,
+  "location": "multiblocked:lifeempowerer",
+  "traits": {
+    "bg_lp": {
+      "x": 58,
+      "y": 135,
+      "width": 60,
+      "height": 18,
+      "textType": 3
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "botania:pylon",
+          "meta": 2
+        },
+        "type": "blockstate"
+      },
+      "lightEmissive": 6
+    },
+    "idle": {
+      "lightEmissive": 6,
+      "parent": "unformed"
+    },
+    "working": {
+      "lightEmissive": 12,
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "lifeempower",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "       ",
+        "   A   ",
+        "   B   ",
+        "       ",
+        "-      "
+      ],
+      [
+        "       ",
+        "  ACA  ",
+        "   D   ",
+        "       ",
+        "       "
+      ],
+      [
+        " A     ",
+        "       ",
+        "     A ",
+        "       ",
+        "       "
+      ],
+      [
+        "AC     ",
+        "BD C   ",
+        "   E CA",
+        "     DB",
+        "   @   "
+      ],
+      [
+        " A     ",
+        "       ",
+        "     A ",
+        "       ",
+        "       "
+      ],
+      [
+        "       ",
+        "  ACA  ",
+        "   D   ",
+        "       ",
+        "       "
+      ],
+      [
+        "       ",
+        "   A   ",
+        "   B   ",
+        "       ",
+        "       "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "bloodmagic:ritual_stone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "multiblocked:lifeempowerer",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "thaumcraft:jar_normal",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "botania:elfglass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "thaumcraft:pedestal_arcane",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "thaumcraft:pedestal_arcane"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

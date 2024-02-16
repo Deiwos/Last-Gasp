@@ -1,0 +1,15 @@
++-------+------------------+---------------------+-----------------+------------------+----------------------------------------------------------------------+
+|    ID | DimensionType ID | Name                | shouldLoadSpawn | Currently loaded | WorldProvider class                                                  |
++-------+------------------+---------------------+-----------------+------------------+----------------------------------------------------------------------+
+|     0 |                0 | overworld           |            true |             true | net.minecraft.world.WorldProviderSurface                             |
+|     1 |                1 | the_end             |           false |            false | net.minecraft.world.WorldProviderEnd                                 |
+|    -1 |               -1 | Nether              |           false |            false | biomesoplenty.common.world.WorldProviderBOPHell                      |
+|     5 |                5 | neoworld            |           false |            false | mod.mcreator.mcreator_neoworld$WorldProviderMod                      |
+|     6 |                6 | monochromeDimension |           false |            false | mod.mcreator.mcreator_monochromeDimension$WorldProviderMod           |
+| 14676 |            14676 | emptiness           |           false |            false | thecodex6824.thaumicaugmentation.common.world.WorldProviderEmptiness |
+|    -2 |                3 | space               |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderSpace        |
+|     2 |              -11 | Storage Cell        |            true |             true | appeng.spatial.StorageWorldProvider                                  |
+|     3 |                2 | planet              |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet       |
++-------+------------------+---------------------+-----------------+------------------+----------------------------------------------------------------------+
+|    ID | DimensionType ID | Name                | shouldLoadSpawn | Currently loaded | WorldProvider class                                                  |
++-------+------------------+---------------------+-----------------+------------------+----------------------------------------------------------------------+

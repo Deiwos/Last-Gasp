@@ -1,0 +1,18 @@
+{
+  "id": "Assteroid_-5366,87,-6052",
+  "name": "Assteroid",
+  "icon": "waypoint-normal.png",
+  "x": -5366,
+  "y": 87,
+  "z": -6052,
+  "r": 188,
+  "g": 244,
+  "b": 174,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    -2
+  ],
+  "persistent": true
+}

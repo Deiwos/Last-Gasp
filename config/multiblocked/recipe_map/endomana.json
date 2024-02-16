@@ -1,0 +1,107 @@
+{
+  "name": "endomana",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "c3afedf7-9bec-4993-ae7a-756828111ce8",
+      "duration": 800,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:8,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 10
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2e1a0b06-2de6-4eed-a3e5-d92696928a99",
+      "duration": 800,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"minecraft:coal\",Count:8,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 10
+          }
+        ]
+      }
+    },
+    {
+      "uid": "55f94a0a-eeae-4a22-8145-4bf28b4fa98a",
+      "duration": 8000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"minecraft:coal_block\",Count:8,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 10
+          }
+        ]
+      }
+    },
+    {
+      "uid": "879e4a5f-0e51-490e-b46e-1925d47dc128",
+      "duration": 8000,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"mekanism:basicblock\",Count:8,Damage:3s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "bot_mana": [
+          {
+            "chance": 1.0,
+            "content": 10
+          }
+        ]
+      }
+    }
+  ]
+}

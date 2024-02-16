@@ -1,0 +1,136 @@
+{
+  "name": "lifeempower",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "d95192dc-7efe-4d25-b444-b385376c3961",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mysticalagriculture:crafting\",Count:1,Damage:1s}"
+              ]
+            }
+          }
+        ],
+        "bg_lp": [
+          {
+            "chance": 1.0,
+            "content": 1000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mysticalagriculture:crafting\",Count:1,Damage:2s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "120060db-ca83-4ee9-9c00-5e338efff9f9",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mysticalagriculture:crafting\",Count:1,Damage:18s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mysticalagriculture:crafting\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mysticalagriculture:crafting\",Count:1,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mysticalagriculture:crafting\",Count:1,Damage:2s}"
+              ]
+            }
+          }
+        ],
+        "bg_lp": [
+          {
+            "chance": 1.0,
+            "content": 10000
+          }
+        ],
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "vitreus",
+              "amount": 50
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "metallum",
+              "amount": 50
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "ordo",
+              "amount": 50
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "herba",
+              "amount": 50
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"mysticalagriculture:crafting\",Count:1,Damage:19s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

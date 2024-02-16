@@ -1,0 +1,18 @@
+{
+  "id": "Thaumsteroid_-5642,88,-5961",
+  "name": "Thaumsteroid",
+  "icon": "waypoint-normal.png",
+  "x": -5642,
+  "y": 88,
+  "z": -5961,
+  "r": 231,
+  "g": 64,
+  "b": 252,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    12
+  ],
+  "persistent": true
+}

@@ -1,0 +1,13 @@
++-------+------------------+--------------+-----------------+------------------+----------------------------------------------------------------------+
+|    ID | DimensionType ID | Name         | shouldLoadSpawn | Currently loaded | WorldProvider class                                                  |
++-------+------------------+--------------+-----------------+------------------+----------------------------------------------------------------------+
+|     0 |                0 | overworld    |            true |             true | net.minecraft.world.WorldProviderSurface                             |
+|     1 |                1 | the_end      |           false |            false | net.minecraft.world.WorldProviderEnd                                 |
+|    -1 |               -1 | Nether       |           false |            false | biomesoplenty.common.world.WorldProviderBOPHell                      |
+| 14676 |            14676 | emptiness    |           false |            false | thecodex6824.thaumicaugmentation.common.world.WorldProviderEmptiness |
+|    -2 |                3 | space        |           false |             true | zmaster587.advancedRocketry.world.provider.WorldProviderSpace        |
+|     2 |              -11 | Storage Cell |            true |             true | appeng.spatial.StorageWorldProvider                                  |
+|   -28 |              -28 | moon.moon    |            true |            false | micdoodle8.mods.galacticraft.core.dimension.WorldProviderMoon        |
++-------+------------------+--------------+-----------------+------------------+----------------------------------------------------------------------+
+|    ID | DimensionType ID | Name         | shouldLoadSpawn | Currently loaded | WorldProvider class                                                  |
++-------+------------------+--------------+-----------------+------------------+----------------------------------------------------------------------+
